@@ -10,15 +10,26 @@
     <div class="container">
       <div class="link-categories">
         <h2>Lanes</h2>
-        <button class="add-lane-btn">add lane</button>
+        <button class="add-lane-btn">Add Link</button>
         <div class="form-group lane-modal">
-          <label for="author">Origin</label>
-          <input type="text" id="author" placeholder="Enter Lane" />
-          <label for="author">Destination</label>
-          <input type="text" id="author" placeholder="Enter Lane" />
+          <label for="author">Link Name</label>
+          <input
+            type="text"
+            id="author"
+            placeholder="Enter Lane"
+            class="origin-input"
+          />
+          <label for="author">URL</label>
+          <input
+            type="text"
+            id="author"
+            placeholder="Enter Lane"
+            class="destination-input"
+          />
           <button class="save-modal-btn">Save</button>
           <button class="close-modal-btn">Cancel</button>
         </div>
+        <div class="link-display"></div>
       </div>
       <div class="link-group">
         <h2>Display name of lane</h2>
