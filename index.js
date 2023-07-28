@@ -1,4 +1,4 @@
-const categoryModal = document.querySelector(".category-modal");
+const categoryModal = document.querySelector(".modal-category");
 const addCategoryBtn = document.querySelector(".add-category-btn");
 const closeCategoryBtn = document.querySelector(".close-category-btn");
 const saveCategoryBtn = document.querySelector(".save-category-btn");

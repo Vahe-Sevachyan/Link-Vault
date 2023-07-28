@@ -1,0 +1,50 @@
+.url-categories-container {
+  display: flex;
+}
+
+.url-categories {
+  width: 420px;
+  border: 1px solid black;
+  height: 100vh;
+}
+
+.modal-category {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+} 
+.modal-category-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 90%;
+  max-width: 500px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}/*# sourceMappingURL=style.css.map */

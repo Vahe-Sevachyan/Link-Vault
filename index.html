@@ -3,36 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>Link Vault</title>
   </head>
   <body>
-    <div class="container">
-      <div class="link-categories">
+    <div class="url-categories-container">
+      <div class="url-categories">
         <h2>Link List</h2>
         <button class="add-category-btn">Add Link</button>
-        <div class="form-group category-modal">
-          <label for="author">Link Name</label>
-          <input
-            type="text"
-            id="author"
-            placeholder="Enter Lane"
-            class="url-name-input"
-          />
-          <label for="author">URL</label>
-          <input
-            type="text"
-            id="author"
-            placeholder="Enter Lane"
-            class="category-url-input"
-          />
-          <button class="save-category-btn">Save</button>
-          <button class="close-category-btn">Cancel</button>
+        <div class="modal-category">
+          <div class="form-group modal-category-content">
+            <label for="author">Link Name</label>
+            <input
+              type="text"
+              id="author"
+              placeholder="Enter Lane"
+              class="url-name-input"
+            />
+            <label for="author">URL</label>
+            <input
+              type="text"
+              id="author"
+              placeholder="Enter Lane"
+              class="category-url-input"
+            />
+            <button class="save-category-btn">Save</button>
+            <button class="close-category-btn">Cancel</button>
+          </div>
         </div>
         <div class="category-name-container"></div>
       </div>
       <div class="link-group">
-        <h2>Display name of lane</h2>
+        <h2>Display name of Categories</h2>
       </div>
     </div>
     <script src="index.js"></script>
